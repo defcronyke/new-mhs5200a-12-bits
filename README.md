@@ -11,6 +11,10 @@ The new spreadsheet has a wave with a pilot signal of 1% in 4,5 the fundamental 
 ![Pilot signal](https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/pilot%20signal)
 
 
+Important warning: the folder "waves" doesn't work anymore, needs to be converted in 12 bits, 2048 points wave.
+
+
+
 ![Spreadsheet](https://raw.githubusercontent.com/wd5gnr/mhs5200a/master/images/screenshot_211.png "The system in action")
 
 The MHS5200A (example: http://www.ebay.com/itm/25MHz-Dual-Channel-DDS-Function-Signal-Generator-Arbitrary-Wave-Sweep-Software-/181754377462) is an inexpensive family of DDS signal generators that have
