@@ -8,6 +8,9 @@ The new version of MHS-5200A now has 12 bit resolution and waves with 2048 sampl
 
 The new spreadsheet has a wave with a pilot signal of 1% in 4,5 the fundamental frequency, usefull for audio analysis.
 
+![Pilot signal]
+(https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/pilot%20signal)
+
 
 ![Spreadsheet](https://raw.githubusercontent.com/wd5gnr/mhs5200a/master/images/screenshot_211.png "The system in action")
 
