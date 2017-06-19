@@ -1,6 +1,14 @@
 About setwave5200
 =================
 
+
+Modifications
+=======
+The new version of MHS-5200A now has 12 bit resolution and waves with 2048 samples. The data need to be send in 16 slices of 128 samples.
+
+The new spreadsheet has a wave with a pilot signal of 1% in 4,5 the fundamental frequency, usefull for audio analysis.
+
+
 ![Spreadsheet](https://raw.githubusercontent.com/wd5gnr/mhs5200a/master/images/screenshot_211.png "The system in action")
 
 The MHS5200A (example: http://www.ebay.com/itm/25MHz-Dual-Channel-DDS-Function-Signal-Generator-Arbitrary-Wave-Sweep-Software-/181754377462) is an inexpensive family of DDS signal generators that have

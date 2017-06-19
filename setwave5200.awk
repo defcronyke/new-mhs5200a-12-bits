@@ -29,7 +29,7 @@ header==0 {
 	gsub("\"","");
 	gsub("[ \t\r\n]","");
 	for (i=1;i<=NF;i++)  {
-	    if (ct==64) {
+	    if (ct==128) {#it was 64, now 128
 		print ""
 		ct=0;
 		chunk++;
