@@ -15,7 +15,7 @@ Important warning: the folder "waves" doesn't work anymore, needs to be converte
 
 
 
-![Spreadsheet](https://raw.githubusercontent.com/wd5gnr/mhs5200a/master/images/screenshot_211.png "The system in action")
+![Spreadsheet](https://raw.github.com/jeffersonpimenta/new-mhs5200a-12-bits/master/images/screenshot_211.png "The system in action")
 
 The MHS5200A (example: http://www.ebay.com/itm/25MHz-Dual-Channel-DDS-Function-Signal-Generator-Arbitrary-Wave-Sweep-Software-/181754377462) is an inexpensive family of DDS signal generators that have
 16 arbitrary wave functions. However, the software is for Windows and not
