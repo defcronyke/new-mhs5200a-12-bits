@@ -1,19 +1,45 @@
-About setwave5200
-=================
-
-
 Modifications
 =======
 The new version of MHS-5200A now has 12 bit resolution and waves with 2048 samples. The data need to be send in 16 slices of 128 samples.
 
 The new spreadsheet has a wave with a pilot signal of 1% in 4,5 the fundamental frequency, usefull for audio analysis.
-
+Singal:
+![Pilot](https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/pilot.jpg)
+FFT:
 ![Pilot signal](https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/pilot%20signal)
 
+Use the comand below to get nine waves: 2peaks, AM, decay, FM, FSK, half wave, white noise, pilot signal and sinc
 
-Important warning: the folder "waves" doesn't work anymore, needs to be converted in 12 bits, 2048 points wave.
+> **./setwave5200 /dev/ttyUSB0 waves/2peaks.csv 0 waves/am.csv 1 waves/decay.csv 2 waves/FM.csv 3 waves/fsk.csv 4 waves/half.csv 5 waves/noise.csv 6 waves/pilot.csv 7 waves/sinc.csv 8**
 
+**Two peaks:**
+![2 peaks](https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/2peaks.jpg)
 
+**AM:**
+![AM](https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/am.jpg)
+
+**Decay:**
+![Decay](https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/decay.jpg)
+
+**FM:**
+![FM](https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/fm.jpg)
+
+**FSK:**
+![FSK](https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/fsk.jpg)
+
+**Half wave:**
+![Half wave](https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/half.jpg)
+
+**White noise:**
+![White noise](https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/noise.jpg)
+
+**Sink:**
+![Sinc](https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/sinc.jpg)
+
+Some waves has weird spikes, still working on!
+
+About setwave5200
+=================
 
 ![Spreadsheet](https://raw.github.com/jeffersonpimenta/new-mhs5200a-12-bits/master/images/screenshot_211.png "The system in action")
 
