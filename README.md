@@ -33,7 +33,7 @@ Use the comand below to get nine waves: 2peaks, AM, decay, FM, FSK, half wave, w
 **White noise:**
 ![White noise](https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/noise.jpg)
 
-**Sink:**
+**Sinc:**
 ![Sinc](https://github.com/jeffersonpimenta/new-mhs5200a-12-bits/blob/master/images/sinc.jpg)
 
 Some waves has weird spikes, still working on!
